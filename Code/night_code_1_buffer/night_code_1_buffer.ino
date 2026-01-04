@@ -1,5 +1,5 @@
 // C++ code
-//
+// NOT TESTED
 //
 void setup()
 {
