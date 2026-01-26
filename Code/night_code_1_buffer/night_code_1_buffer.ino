@@ -12,7 +12,7 @@ void setup()
 void loop()
 {
   int r = analogRead(A3); // analog read from analog pin 3
-  if (r > 700) {
+  if (r > 800) {
     digitalWrite(0, HIGH);
     digitalWrite(1, HIGH);
   } else if(r < 600){
