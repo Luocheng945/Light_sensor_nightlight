@@ -1,5 +1,10 @@
 // C++ code
-// NOT TESTED
+/*
+    Tested
+    working with version 1 of the board when using 10k ohm resistors as current limit resistor but noticeable delay
+    not working with updated version with 330 ohm resistors as current limit resistor(Issue: on and off loop in 0.5 second
+    caused by the brightness of the light bulb affecting the photoresistor)
+*/
 //
 void setup()
 {
